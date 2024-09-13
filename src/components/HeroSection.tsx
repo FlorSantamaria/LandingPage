@@ -15,6 +15,7 @@ const LandingPage: React.FC = () => {
                   width: '100%',
                   maxWidth: '300px',
                   display: 'block',
+                  backgroundColor: '#A0A3CFF'
                 }}
               />
             </Grid>
