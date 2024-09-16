@@ -1,2 +1,16 @@
-
+.App {
+    height: 100vh; /* Asegura que el contenedor ocupe toda la pantalla */
+    background: linear-gradient(75deg, #FFFFFFFF, #819FFFFF); /* Degradado en el fondo de la página */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-y: auto;
+    font-family: 'Roboto', sans-serif;
+}
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
 

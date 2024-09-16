@@ -1,0 +1,92 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    height: 100vh;
+    padding: 20px;
+    /* align-items:center; */
+}
+
+.text-container {
+    max-width: 90%;
+    align-items: flex-start;
+    padding:10px
+}
+.left-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; 
+    width: 50%; 
+}
+
+.text-container h2 {
+    font-size: 1.5rem; /* Tamaño por defecto */
+    margin: 0;
+    color: black;
+    padding-top: 10;
+}
+
+.text-container h3 {
+    font-size: 1.2rem;
+    color: #666;
+    /* margin-top: 10px; */
+}
+
+h5 {
+    font-size: 1rem;
+    color: #666  
+}
+
+.benefits-container {
+    margin-top: 20px;
+    width: 100%;
+}
+
+.image-container {
+    max-width: 45%;
+    align-self: center;
+}
+
+.responsive-image {
+    width: 100%;
+    height: auto;
+    align-items: center;
+}
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .text-container, .image-container {
+        max-width: 100%;
+        padding: 10px;
+    }
+
+    .text-container h1 {
+        font-size: 2.5rem;
+    }
+
+    .text-container p {
+        font-size: 1rem;
+    }
+
+    .responsive-image {
+        width: 80%;
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .text-container h1 {
+        font-size: 2rem;
+    }
+
+    .text-container p {
+        font-size: 0.9rem;
+    }
+
+    .responsive-image {
+        width: 100%;
+    }
+}
