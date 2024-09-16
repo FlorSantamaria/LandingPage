@@ -1,12 +1,10 @@
 import './App.css';
-import HeroSection from './components/HeroSection';
+import { HomePage } from './page/Home';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-       <HeroSection />
-      </header>
+      <HomePage />
     </div>
   );
 }
