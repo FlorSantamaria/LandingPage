@@ -101,6 +101,7 @@ h5 {
     .image-container {
         width: 80%; /* Ajusta el ancho para móviles */
         margin: 20px auto; 
+        position: relative;
     }
 
     .subtitle {
