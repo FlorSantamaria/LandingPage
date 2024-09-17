@@ -71,15 +71,16 @@ h5 {
     right: 0;
     left: 20; /* Alinea la imagen a la derecha */
     top: 50%; /* Ajusta la posición vertical de la imagen */
-    transform: translateY(-50%); 
+    transform: translateY(-80%); 
     width: 45%; /* Ajusta el ancho según sea necesario */
     margin-right: 20px;
     box-sizing: border-box;
+    height: 40%;
+    max-height: 60%;
 }
 
 .responsive-image {
     width: 100%;
-    height: auto;
     align-items: center;
 }
 
