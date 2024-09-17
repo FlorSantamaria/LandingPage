@@ -168,7 +168,6 @@ h5 {
     .image-container {
         width: 40%; /* Ajusta el tamaño de la imagen */
         margin-right: 20px;
-        height: auto; /* Permite que la altura se ajuste automáticamente */
     }
 }
 
