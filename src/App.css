@@ -6,6 +6,9 @@
     align-items: center;
     overflow-y: auto;
     font-family: 'Roboto', sans-serif;
+    background-color: #ffffffff;
+    color-scheme: light;
+
 }
 body, html {
     margin: 0;
