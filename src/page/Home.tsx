@@ -25,8 +25,7 @@ export const HomePage = () => {
               <div className="benefits-container">
                   <BeneficiosComponent icon={Herramientas} title="Soporte:" text="Herramientas prácticas para momentos de crisis, como ejercicios de respiración guiada, meditación y diarios de emociones." />
                   <BeneficiosComponent icon={soporte} title="Contacto directo con psicólogos:" text="Comunicación directa con profesionales de salud mental." />
-                  <BeneficiosComponent icon={Registro} title="Seguimiento:" text="Registro diario del estado emocional para monitorear el progreso" />
-                  
+                  <BeneficiosComponent icon={Registro} title="Seguimiento:" text="Registro diario del estado emocional para monitorear el progreso" />  
               </div>
           </div>
       </div>

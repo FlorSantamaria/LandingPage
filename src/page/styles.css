@@ -22,7 +22,7 @@
 .left-section {
     display: flex;
     flex-direction: column;
-    /* justify-content: space-between;  */
+    /* justify-content: space-between; Distribuye el espacio entre los elementos */
     width: 50%;
 }
 
@@ -160,6 +160,18 @@ h5 {
     }
 }
 
+@media (min-width: 1360px) and (max-height: 600px) {
+    .container {
+        height: 90vh; /* Ocupa el 90% del alto de la ventana */
+    }
+
+    .image-container {
+        width: 40%; /* Ajusta el tamaño de la imagen */
+        margin-right: 20px;
+        height: auto; /* Permite que la altura se ajuste automáticamente */
+    }
+}
+
 @media (max-width: 480px) {
     .text-container h1 {
         font-size: 16px; 
@@ -179,18 +191,5 @@ h5 {
         position: relative; /* Quitar el position absolute para móviles */
         top: auto; /* Remover el posicionamiento vertical */
         transform: none; /* Eliminar transform */
-    }
-}
-
-@media (min-width: 1024px) and (max-height: 900px) {
-    .container {
-        height: 90vh; /* Ocupa el 90% del alto de la ventana */
-    }
-
-    .image-container {
-        width: 40%; /* Ajusta el tamaño de la imagen */
-        margin-right: 20px;
-        margin-top: 50px;
-        height: auto; /* Permite que la altura se ajuste automáticamente */
     }
 }
