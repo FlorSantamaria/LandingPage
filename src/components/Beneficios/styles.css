@@ -29,7 +29,7 @@
     .benefit-box {
         flex-direction: row;
         align-items: center;
-        text-align: left;
+        /* text-align: left; */
         justify-content: center;
     }
 
