@@ -27,7 +27,7 @@
 
 @media (max-width: 768px) {
     .benefit-box {
-        /* flex-direction: column; */
+        flex-direction: row;
         align-items: flex-start;
         text-align: left;
     }
