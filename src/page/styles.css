@@ -74,6 +74,7 @@ h5 {
     transform: translateY(-50%); 
     width: 45%; /* Ajusta el ancho según sea necesario */
     margin-right: 20px;
+    box-sizing: border-box;
 }
 
 .responsive-image {

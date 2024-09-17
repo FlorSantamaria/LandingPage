@@ -4,7 +4,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    overflow-y: auto;
     font-family: 'Roboto', sans-serif;
     background-color: #ffffffff;
     color-scheme: light;
@@ -27,3 +26,8 @@ body, html {
     --color-quaternary: #d7f4f4ff;
   }
 
+  @media (max-width: 768px) {
+    .App {
+        overflow-y: auto;
+    }
+  }
