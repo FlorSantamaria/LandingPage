@@ -102,7 +102,7 @@ h5 {
         width: 80%; /* Ajusta el ancho para móviles */
         margin: 20px auto; 
         position: relative;
-        align-items: center;
+        /* align-items: center; */
         justify-content: center;
         transform: translateY(-50%);
     }
