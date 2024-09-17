@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/LandingPage/static/css/main.07187db9.css",
-    "main.js": "/LandingPage/static/js/main.a36f2fdb.js",
+    "main.css": "/LandingPage/static/css/main.7136c8be.css",
+    "main.js": "/LandingPage/static/js/main.eaf32169.js",
     "static/js/453.7ee4257d.chunk.js": "/LandingPage/static/js/453.7ee4257d.chunk.js",
     "static/media/mano.jpeg": "/LandingPage/static/media/mano.12ea11bb21ecb5419c40.jpeg",
     "static/media/Logo.png": "/LandingPage/static/media/Logo.e7986ff53b7d42f75a2b.png",
     "static/media/soporte.jpg": "/LandingPage/static/media/soporte.6bf89601e435f363e0e6.jpg",
     "static/media/Registro.jpg": "/LandingPage/static/media/Registro.a698437a700132584374.jpg",
     "index.html": "/LandingPage/index.html",
-    "main.07187db9.css.map": "/LandingPage/static/css/main.07187db9.css.map",
-    "main.a36f2fdb.js.map": "/LandingPage/static/js/main.a36f2fdb.js.map",
+    "main.7136c8be.css.map": "/LandingPage/static/css/main.7136c8be.css.map",
+    "main.eaf32169.js.map": "/LandingPage/static/js/main.eaf32169.js.map",
     "453.7ee4257d.chunk.js.map": "/LandingPage/static/js/453.7ee4257d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.07187db9.css",
-    "static/js/main.a36f2fdb.js"
+    "static/css/main.7136c8be.css",
+    "static/js/main.eaf32169.js"
   ]
 }
