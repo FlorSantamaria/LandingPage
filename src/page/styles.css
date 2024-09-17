@@ -41,7 +41,7 @@
     /* margin-top: 10px; */
 }
 
-h5 {
+.h5 {
     font-size: 1rem;
     color: #666;
     margin-bottom:15;
@@ -71,9 +71,9 @@ h5 {
 }
 
 /* Diseño para pantallas pequeñas */
-@media (max-width: 768px) {
+@media (max-width: 480px) {
     .container {
-        flex-direction: column-reverse;
+        flex-direction: column;
         text-align: center;
     }
 
@@ -82,15 +82,16 @@ h5 {
         padding: 10px;
     }
 
-    h2 {
+    .h2 {
         font-size: 16px;
+        color: var(--color-primary);
     }
 
-    h5 {
+    .h5 {
         font-size: 14px;
     }
 
-    p {
+    .p {
         font-size: 12px;
     }
 
@@ -119,9 +120,9 @@ h5 {
     }
 }
 
-@media (max-width: 480px) {
+/* @media (max-width: 480px) {
     .text-container h1 {
-        font-size: 16px; /* Ajuste del tamaño del texto en pantallas muy pequeñas */
+        font-size: 16px; 
     }
 
     .benefit-text {
@@ -131,4 +132,4 @@ h5 {
     .responsive-image {
         width: 100%;
     }
-}
+} */
