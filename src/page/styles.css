@@ -99,8 +99,6 @@ h5 {
     }
 
     .image-container {
-        /* order: 2;  */
-        position: static; /* La imagen ocupa el flujo normal del documento */
         width: 80%; /* Ajusta el ancho para móviles */
         margin: 20px auto; 
     }
