@@ -10,11 +10,18 @@
     align-items: flex-start;
     padding:10px
 } */
+/* .left-section {
+    display: flex;
+    flex-direction: column;
+    width: 50%; 
+    justify-content: space-between;
+} */
+
 .left-section {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start; 
-    width: 50%; 
+    justify-content: space-between; /* Distribuye el espacio entre los elementos */
+    width: 50%;
 }
 
  h2 {
@@ -41,7 +48,7 @@
     /* margin-top: 10px; */
 }
 
-.h5 {
+h5 {
     font-size: 1rem;
     color: #666;
     margin-bottom:15;
@@ -54,9 +61,18 @@
     width: 100%;
 }
 
-.image-container {
-    max-width: 45%;
+/* .image-container {
+    max-width: 50%;
     align-self: center;
+} */
+.image-container {
+    position: absolute; 
+    right: 0;
+    left: 20; /* Alinea la imagen a la derecha */
+    top: 50%; /* Ajusta la posición vertical de la imagen */
+    transform: translateY(-50%); /* Centra verticalmente */
+    width: 45%; /* Ajusta el ancho según sea necesario */
+    margin-right: 20px;
 }
 
 .responsive-image {
@@ -83,9 +99,10 @@
     }
 
     .image-container {
-        order: 2; 
-        margin-top: 20px;
-        margin-bottom: 20px;
+        /* order: 2;  */
+        position: static; /* La imagen ocupa el flujo normal del documento */
+        width: 80%; /* Ajusta el ancho para móviles */
+        margin: 20px auto; 
     }
 
     .subtitle {
