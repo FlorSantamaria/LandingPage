@@ -77,9 +77,24 @@
         text-align: center;
     }
 
-    .left-section, .image-container {
+    .left-section{
         width: 100%;
-        padding: 10px;
+        padding: 0;
+    }
+
+    .image-container {
+        order: 2; 
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .subtitle {
+        order: 1;
+    }
+
+    .benefits-container {
+        order: 3;
+        margin-top: 0;
     }
 
     h2 {
@@ -118,7 +133,7 @@
     }
 
     .responsive-image {
-        width: 80%;
+        width: 100%;
         margin-top: 20px;
     }
 }
