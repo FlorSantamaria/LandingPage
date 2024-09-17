@@ -99,13 +99,11 @@ h5 {
     }
 
     .image-container {
-        width: 80%; /* Ajusta el ancho para móviles */
-        margin: 20px auto; 
-        position: relative;
-        /* align-items: center; */
-        justify-content: center;
-        transform: translateY(-50%);
-        top: 10%;
+        position: static; /* Elimina el position absoluto */
+        width: 80%; /* Ajusta el tamaño de la imagen en móviles */
+        margin: 20px auto; /* Centra la imagen */
+        transform: none; /* Remueve el translate que puede causar desajustes */
+        top: auto;
     }
 
     .subtitle {
@@ -158,7 +156,7 @@ h5 {
     }
 }
 
-/* @media (max-width: 480px) {
+@media (max-width: 480px) {
     .text-container h1 {
         font-size: 16px; 
     }
@@ -170,4 +168,12 @@ h5 {
     .responsive-image {
         width: 100%;
     }
-} */
+
+    .image-container {
+        width: 80%; 
+        margin: 20px auto; 
+        position: relative; /* Quitar el position absolute para móviles */
+        top: auto; /* Remover el posicionamiento vertical */
+        transform: none; /* Eliminar transform */
+    }
+}
