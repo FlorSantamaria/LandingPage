@@ -1,6 +1,6 @@
 .App {
     height: 100vh; /* Asegura que el contenedor ocupe toda la pantalla */
-    background: linear-gradient(75deg, #FFFFFFFF, #819FFFFF); /* Degradado en el fondo de la página */
+    /* background: linear-gradient(75deg, #FFFFFFFF, #819FFFFF);  */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -12,5 +12,15 @@ body, html {
     padding: 0;
     height: 100%;
     width: 100%;
+    color-scheme: light;
 }
+
+:root {
+    --color-primary: #819fffff;
+    --color-primary-rgba: rgba(134, 208, 253, 0.1);
+    --color-secondary: #86d0fdff;
+    --color-secondary-rgba: rgba(134, 208, 253, 0.1);
+    --color-tertiary: #a0a3fcff;
+    --color-quaternary: #d7f4f4ff;
+  }
 

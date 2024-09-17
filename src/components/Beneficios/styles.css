@@ -1,11 +1,11 @@
 .benefit-box {
     display: flex;
     align-items: center;
-    background-color: #f5f5f5;
+    background: linear-gradient(135deg, #FFFFFFFF, var(--color-primary));
     padding: 5px;
     margin-bottom: 15px;
     border-radius: 8px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 8px 8px 8px var(--color-primary-rgba);
     width: 100%;
 }
 
@@ -23,4 +23,35 @@
 
 .title {
     font-weight: bold;
+}
+
+@media (max-width: 768px) {
+    .benefit-box {
+        flex-direction: column;
+        align-items: flex-start;
+        text-align: left;
+    }
+
+    .benefit-icon {
+        margin-right: 0;
+        margin-bottom: 5px;
+    }
+
+    .benefit-text {
+        font-size: 14px;
+    }
+
+    .title {
+        font-size: 14px; /* Tamaño del título ajustado para pantallas medianas */
+    }
+}
+
+@media (max-width: 480px) {
+    .benefit-text {
+        font-size: 0.8rem;
+    }
+
+    .title {
+        font-size:12px /* Tamaño del título ajustado para pantallas pequeñas */
+    }
 }

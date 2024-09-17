@@ -5,16 +5,21 @@ import soporte from "../assets/soporte.jpg";
 import Registro from "../assets/Registro.jpg"; 
 import Herramientas from "../assets/Herramientas.jpg"; 
 import { BeneficiosComponent } from "../components/Beneficios";
+import logo from "../assets/Logo.png"
 
 export const HomePage = () => {
     return (
       <div className="container">
         <div className="left-section">
-          <div className="text-container">
-          <h2><strong>Alaya</strong>: tu apoyo en momentos difíciles</h2>
-            <h5> ¡Tu salud emocional es muy importante!</h5>
+        <div className="logo-text-container"> {/* Nueva clase contenedora */}
+          <img src={logo} alt="Logo" className="logo" />
+          <h2>Tu apoyo en momentos difíciles</h2>
+        </div>
+        <div className="subtitle">
+            <h5>Tu salud emocional es muy importante!</h5>
             <p>Por eso te brindamos herramientas para ayudarte a enfrentar momentos de crisis ¡Con contacto directo a profesionales!</p>
-          </div>
+
+        </div>
 
 
           <div className="benefits-container">
