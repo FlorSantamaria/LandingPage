@@ -3,6 +3,7 @@
     justify-content: space-between;
     height: 100vh;
     padding: 20px;
+    overflow: hidden;
 }
 
 /* .text-container {
@@ -70,7 +71,7 @@ h5 {
     right: 0;
     left: 20; /* Alinea la imagen a la derecha */
     top: 50%; /* Ajusta la posición vertical de la imagen */
-    transform: translateY(-50%); /* Centra verticalmente */
+    transform: translateY(-50%); 
     width: 45%; /* Ajusta el ancho según sea necesario */
     margin-right: 20px;
 }
