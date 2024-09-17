@@ -28,8 +28,9 @@
 @media (max-width: 768px) {
     .benefit-box {
         flex-direction: row;
-        align-items: flex-start;
+        align-items: center;
         text-align: left;
+        justify-content: center;
     }
 
     .benefit-icon {
