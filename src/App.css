@@ -5,7 +5,7 @@
     justify-content: center;
     align-items: center;
     font-family: 'Roboto', sans-serif;
-    background-color: #ffffffff;
+    background-color: var(--background);
     color-scheme: light;
 
 }
@@ -22,7 +22,8 @@ body, html {
     --color-primary-rgba: rgba(134, 208, 253, 0.1);
     --color-secondary: #86d0fdff;
     --color-secondary-rgba: rgba(134, 208, 253, 0.1);
-    --color-tertiary: #a0a3fcff;
     --color-quaternary: #d7f4f4ff;
+    --color-text: #2E4D83FF;
+    --background: rgba(215, 244, 244, 0.);
   }
 

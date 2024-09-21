@@ -1,12 +1,6 @@
 .benefit-box {
-    display: flex;
-    align-items: center;
-    background: linear-gradient(135deg, #FFFFFFFF, var(--color-primary));
-    padding: 5px;
-    margin-bottom: 15px;
-    border-radius: 8px;
-    box-shadow: 8px 8px 8px var(--color-primary-rgba);
-    width: 100%;
+    border-radius: 18px;
+    margin-bottom: 10px;
 }
 
 .benefit-icon {
@@ -17,10 +11,14 @@
 
 .benefit-text {
     font-size: 1rem;
-    color: #333;
+    color: var(--color-text);
     flex: 1;
 }
 
+.row {
+    display: flex; 
+  align-items: center
+}
 .title {
     font-weight: bold;
 }
