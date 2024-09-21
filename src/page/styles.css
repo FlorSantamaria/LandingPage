@@ -76,16 +76,13 @@ h5 {
     align-self: center;
 } */
 .image-container {
-    width: 50%; /* Ocupa el 50% del ancho */
-    height: 100%; /* Ocupa todo el alto disponible */
-    display: flex;
-    justify-content: center;
-    align-items: center;
+width: 100%;
 }
 
 .responsive-image {
-    width: 100%; /* La imagen ocupa el 100% del ancho del contenedor */
-    height: 100%; /* Mantiene la proporción de la imagen */
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .logo {
@@ -98,7 +95,6 @@ h5 {
     .container {
         flex-direction: column;
         text-align: center;
-        height: auto;
     }
 
     .left-section{
@@ -107,12 +103,14 @@ h5 {
     }
 
     .image-container {
-        position: static; /* Elimina el position absoluto */
-        width: 80%; /* Ajusta el tamaño de la imagen en móviles */
-        margin: 20px auto; /* Centra la imagen */
-        transform: none; /* Remueve el translate que puede causar desajustes */
-        top: auto;
+        /* position: static; 
+        width: 80%; 
+        margin: 20px auto; 
+        transform: none; 
+        top: auto; */
+        order: 2; 
         width: 100%;
+        margin-top: 20px;
     }
 
     .subtitle {
