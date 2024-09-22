@@ -3,34 +3,25 @@
     text-align: center;
 }
 .subtitle {
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
 }
-
-h5 {
-    font-size: 14px;
-    color: var(--color-text);
-    margin-bottom:15;
-    font-family: 'Roboto', sans-serif;
+.content {
+    flex-direction: column;
 }
-
-p {
-    color: var(--color-text);
-    font-size: 12px;
-}
-h2 {
-    font-size: 16px; 
-    margin: 0;
-    color: var(--color-text);
-    padding-top: 10;
+.logo-text-container{
+    justify-content: center;
+    align-items: center;
 }
 
 .image-container {
-    width: 60%; 
-    margin-right: 20px;
-}
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: -10px;
 
+}
 .responsive-image{
-    width: 95%;
+    width: 100%;
 }

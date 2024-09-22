@@ -1,14 +1,21 @@
 import React from "react";
 import "./styles.css";
-import { isMobile } from 'react-device-detect';
+import imagenPrincipal from "../assets/mano.jpeg"; 
+import soporte from "../assets/soporte.jpg"; 
+import Registro from "../assets/Registro.jpg"; 
+import Herramientas from "../assets/Herramientas.jpg"; 
+import { BeneficiosComponent } from "../components/Beneficios";
+import logo from "../assets/Logo2.png"
+import { useMediaQuery } from "react-responsive";
 import { MobileComponent } from "./MobileComponent";
 import { DesktopComponent } from "./DesktopComponent";
+
 export const HomePage = () => {
+    const isMobile = useMediaQuery({ query: '(max-width: 768px)' });
+    console.log('Is Mobile:', isMobile);
   return (
        <div>
-         <div>
-            {isMobile ? <MobileComponent /> : <DesktopComponent />}
-        </div>
+         {isMobile ? <MobileComponent /> : <DesktopComponent />}
           {/* <div className="left-section">
               <div className="logo-text-container">
                   <img src={logo} alt="Logo" className="logo" />
