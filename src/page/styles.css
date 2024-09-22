@@ -76,7 +76,7 @@ h5 {
     align-self: center;
 } */
 .image-container {
-width: 100%;
+width: 50%;
 }
 
 .responsive-image {
@@ -100,6 +100,7 @@ width: 100%;
     .left-section{
         width: 100%;
         padding: 0;
+        order: 0;
     }
 
     .image-container {
@@ -108,7 +109,7 @@ width: 100%;
         margin: 20px auto; 
         transform: none; 
         top: auto; */
-        order: 2; 
+        order: 1; 
         width: 100%;
         margin-top: 20px;
     }
@@ -118,7 +119,7 @@ width: 100%;
     }
 
     .benefits-container {
-        order: 3;
+        order: 2;
         margin-top: 0;
     }
 
@@ -180,6 +181,9 @@ width: 100%;
     .text-container h1 {
         font-size: 16px; 
     }
+    .container {
+
+    }
 
     .benefit-text {
         font-size: 0.9rem;
@@ -192,8 +196,16 @@ width: 100%;
     .image-container {
         width: 80%; 
         margin: 20px auto; 
-        position: relative; /* Quitar el position absolute para móviles */
-        top: auto; /* Remover el posicionamiento vertical */
-        transform: none; /* Eliminar transform */
+        top: auto; 
+        transform: none;
+         order:1;
     }
+    .benefits-container {
+        order: 2; /* Asegura que los beneficios se mantengan debajo de la imagen */
+        margin-top: 0;
+      }
+    
+      .left-section {
+        order: 0; /* Mantiene el texto en la parte superior */
+      }
 }

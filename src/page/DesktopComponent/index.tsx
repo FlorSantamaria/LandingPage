@@ -1,15 +1,16 @@
 import React from "react";
 import "./styles.css";
-import { isMobile } from 'react-device-detect';
-import { MobileComponent } from "./MobileComponent";
-import { DesktopComponent } from "./DesktopComponent";
-export const HomePage = () => {
+import imagenPrincipal from "../../assets/mano.jpeg"; 
+import soporte from "../../assets/soporte.jpg"; 
+import Registro from "../../assets/Registro.jpg"; 
+import Herramientas from "../../assets/Herramientas.jpg"; 
+import { BeneficiosComponent } from "../../components/Beneficios";
+import logo from "../../assets/Logo2.png"
+
+export const DesktopComponent = () => {
   return (
-       <div>
-         <div>
-            {isMobile ? <MobileComponent /> : <DesktopComponent />}
-        </div>
-          {/* <div className="left-section">
+       <div className="container">
+          <div className="left-section">
               <div className="logo-text-container">
                   <img src={logo} alt="Logo" className="logo" />
                   <h2>Tu apoyo en momentos difíciles</h2>
@@ -26,7 +27,7 @@ export const HomePage = () => {
           </div>
           <div className="image-container">
               <img src={imagenPrincipal} alt="Imagen Principal" className="responsive-image" />
-          </div> */}
+          </div>
       </div>
   );
 };
