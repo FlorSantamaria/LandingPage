@@ -1,23 +1,41 @@
 .benefit-box {
-    border-radius: 18px;
+    border-radius: 50px;
     margin-bottom: 10px;
+    height: 95px;
+}
+.custom-card-content {
+    padding: 0px;
+    justify-content: center;
+    align-items: center;
 }
 
 .benefit-icon {
     width: 60px;
     height: 60px;
     margin-right: 15px;
+    margin-left: 5px;
 }
+.css-46bh2p-MuiCardContent-root {
+    padding: 0px;
+}
+
 
 .benefit-text {
     font-size: 1rem;
     color: var(--color-text);
     flex: 1;
+    margin-right: 10px;
+}
+
+.content {
+    justify-content: center;
+    align-items: center;  
 }
 
 .row {
     display: flex; 
-  align-items: center
+  align-items: center;
+  justify-content: center;
 }
 .title {
     font-weight: bold;

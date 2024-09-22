@@ -31,7 +31,8 @@
     font-size: 1.5rem; 
     margin: 0;
     color: var(--color-text);
-    padding-top: 10;
+    padding-top: 10px;
+    margin-left: 10px;
 }
 p{
     color: var(--color-text);
@@ -87,6 +88,13 @@ width: 50%;
 .logo {
     width: 100px;
     height: 100px
+}
+.fixed-button {
+    position: fixed;  /* Posiciona el botón de forma fija */
+    bottom: 20px;     /* Espacio desde el fondo */
+    left: 50%;        /* Centra horizontalmente */
+    transform: translateX(-50%); /* Ajusta el centro */
+    z-index: 1000;    /* Asegúrate de que esté por encima de otros elementos */
 }
 
 @media (max-width: 768px) {

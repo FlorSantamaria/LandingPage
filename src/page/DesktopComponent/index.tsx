@@ -23,9 +23,10 @@ export const DesktopComponent = () => {
               <div className="benefits-container">
                   <BeneficiosComponent icon={Herramientas} title="Soporte:" text="Herramientas prácticas para momentos de crisis, como ejercicios de respiración guiada, meditación y diarios de emociones." />
                   <BeneficiosComponent icon={soporte} title="Contacto directo con psicólogos:" text="Comunicación directa con profesionales de salud mental." />
-                  <BeneficiosComponent icon={Registro} title="Seguimiento:" text="Registro diario del estado emocional para monitorear el progreso" />  
-                  <BlueButton />
+                  <BeneficiosComponent icon={Registro} title="Seguimiento:" text="Permite llevar un registro del modo en el que el estado de ánimo va evolucionando a lo largo del día y de la semana " />  
+            
               </div>
+            <BlueButton />
           </div>
           <div className="image-container">
               <img src={imagenPrincipal} alt="Imagen Principal" className="responsive-image" />
