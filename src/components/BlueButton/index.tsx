@@ -8,10 +8,8 @@ export const BlueButton = () => {
         backgroundColor: '#819fffff',    
         color: 'white',             
         borderRadius: '20px',       
-        padding: '10px 20px',  
-        marginBottom: '10px',
-        marginTop: '5px',
-        width: '100%'
+        width: '95%',
+        padding: '5px'
       }}
     >
       ¡Probala!

@@ -1,6 +1,7 @@
 .container {
     flex-direction: column;
     text-align: center;
+    width: 100%;
 }
 .subtitle {
     flex-direction: row;
@@ -35,8 +36,14 @@ h2 {
 }
 
 .benefits-container {
-
+    width: 100%;
+align-items: center;
+justify-content: center;
 }
 
 .containerButton {
+    padding: 20px;
+    width: 50%;
+    align-content: center;
+
 }

@@ -1,3 +1,4 @@
+// import React from 'react';
 import './styles.css';
 
 import React from 'react';
@@ -20,13 +21,14 @@ const CustomCard = styled(Card)(({ theme }) => ({
   },
   alignItems: 'center',
   justifyContent:'center',
-  padding: '12px',
-  marginBottom: '10px'
+
 }));
 
 
 const CustomCardComponent = (props: IBeneficiosProps) => {
   return (
+    <div style={{paddingLeft: '10px', paddingRight: '10px', paddingBottom: '10px'}}>
+
     <CustomCard elevation={0}>
       <CardContent sx={{ p:0, '&:last-child': { pb: 0 }}}>
       <div className="row">
@@ -41,6 +43,7 @@ const CustomCardComponent = (props: IBeneficiosProps) => {
         </div>
       </CardContent>
     </CustomCard>
+    </div>
   );
 };
 

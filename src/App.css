@@ -1,7 +1,7 @@
 .App {
     height: 100vh; /* Asegura que el contenedor ocupe toda la pantalla */
     /* background: linear-gradient(75deg, #FFFFFFFF, #819FFFFF);  */
-    display: flex;
+    /* display: flex; */
     justify-content: center;
     align-items: center;
     font-family: 'Roboto', sans-serif;
