@@ -13,6 +13,7 @@
 .logo-text-container{
     justify-content: center;
     align-items: center;
+    justify-content: flex-start;
 }
 
 .image-container {
@@ -26,4 +27,15 @@
     width: 100%; 
     max-width: none; 
     height: auto;
+}
+
+h2 {
+ font-size: 12px
+}
+
+.benefits-container {
+
+}
+
+.containerButton {
 }

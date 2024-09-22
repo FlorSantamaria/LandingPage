@@ -1,24 +1,47 @@
-import React from 'react';
 import './styles.css';
-import { Card, CardContent } from '@mui/material';
 
+import React from 'react';
+import { Card, CardContent, Typography } from '@mui/material';
+import { styled } from '@mui/system';
 interface IBeneficiosProps {
-    icon: string,
+    icon?: string,
     text: string,
     title: string,
 }
 
-export const BeneficiosComponent = (props: IBeneficiosProps) => {
+const CustomCard = styled(Card)(({ theme }) => ({
+  boxShadow: '0px 4px 20px rgba(0, 0, 0, 0.2)',
+  borderRadius: '8px',
+  transition: 'transform 0.3s, box-shadow 0.3s',
+  display: 'flex', 
+  '&:hover': {
+    transform: 'scale(1.05)',
+    boxShadow: '0px 8px 30px rgba(0, 0, 0, 0.3)',
+  },
+  alignItems: 'center',
+  justifyContent:'center',
+  padding: '12px',
+  marginBottom: '10px'
+}));
+
+
+const CustomCardComponent = (props: IBeneficiosProps) => {
   return (
-    <Card elevation={3} className="benefit-box" sx={{ px: 0 }}>
-      <CardContent sx={{ p:0, '&:last-child': { pb: 0 }}} className='content'>
-        <div className="row">
-          <img src={props.icon} alt="Icono" className="benefit-icon" />
-          <p className="benefit-text">
-            <strong>{props.title}</strong> {props.text}
-          </p>
+    <CustomCard elevation={0}>
+      <CardContent sx={{ p:0, '&:last-child': { pb: 0 }}}>
+      <div className="row">
+      <img 
+        src={props.icon} 
+        alt="Icono" 
+        style={{ marginRight: '16px', width: '50px', height: '50px' }} // Tamaño del ícono
+      />
+      <Typography variant="body1" component="span" className='text'>
+          <strong>{props.title}</strong>: {props.text}
+        </Typography>
         </div>
       </CardContent>
-    </Card>
+    </CustomCard>
   );
 };
+
+export default CustomCardComponent;

@@ -40,6 +40,9 @@
 .title {
     font-weight: bold;
 }
+.text {
+    color: var(--color-text)
+}
 
 @media (max-width: 768px) {
     .benefit-box {

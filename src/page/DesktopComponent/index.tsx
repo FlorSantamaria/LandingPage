@@ -4,9 +4,10 @@ import imagenPrincipal from "../../assets/mano.jpeg";
 import soporte from "../../assets/soporte.jpg"; 
 import Registro from "../../assets/Registro.jpg"; 
 import Herramientas from "../../assets/Herramientas.jpg"; 
-import { BeneficiosComponent } from "../../components/Beneficios";
+import CustomCardComponent from "../../components/Beneficios";
 import logo from "../../assets/Logo2.png"
 import BlueButton from "../../components/BlueButton";
+import IconTextCard from "../../components/Beneficios";
 
 export const DesktopComponent = () => {
   return (
@@ -21,12 +22,14 @@ export const DesktopComponent = () => {
                   <p>Te invitamos a descargar Alaya, la aplicación que va a ayudarte a controlar tus emociones en los momentos que más necesites </p>
               </div>
               <div className="benefits-container">
-                  <BeneficiosComponent icon={Herramientas} title="Soporte:" text="Herramientas prácticas para momentos de crisis, como ejercicios de respiración guiada, meditación y diarios de emociones." />
-                  <BeneficiosComponent icon={soporte} title="Contacto directo con psicólogos:" text="Comunicación directa con profesionales de salud mental." />
-                  <BeneficiosComponent icon={Registro} title="Seguimiento:" text="Permite llevar un registro del modo en el que el estado de ánimo va evolucionando a lo largo del día y de la semana " />  
-            
+                   <IconTextCard icon={Herramientas} title="Soporte" text="Herramientas prácticas para momentos de crisis, como ejercicios de respiración guiada, meditación y diarios de emociones." />
+                  <IconTextCard icon={soporte} title="Contacto directo con psicólogos" text="Comunicación directa con profesionales de salud mental." />
+                  <IconTextCard icon={Registro} title="Seguimiento" text="Permite llevar un registro del modo en el que el estado de ánimo va evolucionando a lo largo del día y de la semana " />   
               </div>
-            <BlueButton />
+
+              <div className="containerButton">
+                <BlueButton />
+              </div>
           </div>
           <div className="image-container">
               <img src={imagenPrincipal} alt="Imagen Principal" className="responsive-image" />
