@@ -6,8 +6,10 @@ import Registro from "../../assets/Registro.jpg";
 import Herramientas from "../../assets/Herramientas.jpg";
 import './styles.css'
 import { Button } from "@mui/material";
-import BlueButton from "../../components/BlueButton";
+import BlueButton from "../../components/GoogleBoton";
 import IconTextCard from "../../components/Beneficios";
+import { Benefits } from "../../components/Beneficios/Benefits";
+import GooglePlayButton from "../../components/GoogleBoton";
 
 
 export const MobileComponent = () => {
@@ -25,12 +27,10 @@ export const MobileComponent = () => {
             <img src={imagenPrincipal} alt="Imagen Principal" className="responsive-image" />
             </div>
             <div className="benefits-container">
-                 <IconTextCard icon={Herramientas} title="Soporte" text="Herramientas prácticas para momentos de crisis, como ejercicios de respiración guiada, meditación y diarios de emociones." />
-                <IconTextCard icon={soporte} title="Contacto directo con psicólogos" text="Comunicación directa con profesionales de salud mental." />
-                <IconTextCard icon={Registro} title="Seguimiento" text="Registro diario del estado emocional para monitorear el progreso" />   
+            <Benefits />
 
                 <div className="containerButton">
-                <BlueButton />
+                <GooglePlayButton />
               </div>
             </div> 
 
