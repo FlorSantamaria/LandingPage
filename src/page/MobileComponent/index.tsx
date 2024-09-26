@@ -17,7 +17,7 @@ export const MobileComponent = () => {
         <div className="container">
             <div className="logo-text-container">
                 <img src={logo} alt="Logo" className="logo" />
-                <h2>Tu apoyo en momentos difíciles</h2>
+                <h2>Te acompañamos en tu bienestar emocional</h2>
             </div>
             <div className="subtitle">
             <h5>No tenes que controlar tus pensamientos, solo tenes que impedir que te controlen</h5>
