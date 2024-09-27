@@ -1,0 +1,5 @@
+export const invitacion : String = `
+
+    Te invitamos a descargar Alaya, la aplicación móvil que va a 
+    ayudarte en tu bienestar emocional diario en los momentos que más
+    necesites `
