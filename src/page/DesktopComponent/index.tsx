@@ -5,7 +5,7 @@ import tecnicas from "../../assets/tecnicas.jpg";
 import Registro from "../../assets/Captura2.jpg"; 
 import Herramientas from "../../assets/Captura.jpg"; 
 import CustomCardComponent from "../../components/Beneficios";
-import logo from "../../assets/Logo2.png"
+import logo from "../../assets/Logo.png"
 import BlueButton from "../../components/GoogleBoton";
 import IconTextCard from "../../components/Beneficios";
 import { Benefits } from "../../components/Beneficios/Benefits";

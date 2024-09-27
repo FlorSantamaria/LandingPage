@@ -5,6 +5,7 @@
     flex-direction: row;
 }
 
+
 /* .text-container {
     max-width: 90%;
     align-items: flex-start;
@@ -25,8 +26,8 @@
     flex: 1;
 }
 
- h2 {
-    font-size: 1.5rem; 
+.logo-text-container h2 {
+    font-size: 24px; 
     margin: 0;
     color: var(--color-text);
     padding-top: 10px;
@@ -43,6 +44,20 @@ p{
     align-items: center;
     justify-content: center;
     padding: 10px
+}
+
+.subtitle h5 {
+    font-size: 20px;
+    color: var(--color-text);
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+.subtitle p {
+    font-size: 16px;
+    color: var(--color-text);
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
 }
 
 .logo-text-container {

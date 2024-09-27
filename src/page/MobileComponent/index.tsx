@@ -1,5 +1,5 @@
 // import { BeneficiosComponent } from "../../components/Beneficios"
-import logo from "../../assets/Logo2.png"
+import logo from "../../assets/Logo.png"
 import imagenPrincipal from "../../assets/mano.jpeg"; 
 import soporte from "../../assets/soporte.jpg"; 
 import Registro from "../../assets/Registro.jpg"; 

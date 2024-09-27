@@ -1,6 +1,6 @@
 import CustomCardComponent from "./index"
 import tecnicas from "../../assets/tecnicas.jpg"; 
-import Registro from "../../assets/Captura2.jpg"; 
+import Registro from "../../assets/Registrar.jpeg"; 
 import Herramientas from "../../assets/Captura.jpg"; 
 
 export const Benefits = () => {
