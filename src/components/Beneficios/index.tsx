@@ -17,15 +17,16 @@ const CustomCard = styled(Card)(({ }) => ({
   borderRadius: '8px',
   transition: 'transform 0.3s, box-shadow 0.3s',
   // display: 'flex', 
-  // '&:hover': {
-  //   transform: 'scale(1.05)',
-  //   boxShadow: '0px 8px 30px rgba(0, 0, 0, 0.3)',
-  // },
+  '&:hover': {
+    transform: 'scale(1)',
+    boxShadow: '0px 8px 30px rgba(0, 0, 0, 0.3)',
+  },
   alignItems: 'center',
   justifyContent:'center',
   padding: '10px',
   marginBottom: '10px',
   backgroundColor: 'white',
+  width: '300px',
 }));
 
 
@@ -35,7 +36,7 @@ const isMobile = useMediaQuery({ query: '(max-width: 768px)' });
   return (
     <div style={{paddingLeft: '10px', paddingRight: '10px'}}>
 
-    <CustomCard elevation={0} style={{width: isMobile ? '92%' : '95%'}}>
+    <CustomCard elevation={0} style={{minHeight: isMobile? undefined : '150px',width: isMobile ? '92%' : '95%'}}>
       <CardContent sx={{ p:0, '&:last-child': { pb: 0 }}}>
       <div className="row">
       <img 

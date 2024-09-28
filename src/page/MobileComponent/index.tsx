@@ -21,12 +21,13 @@ export const MobileComponent = () => {
             <img src={imagenPrincipal} alt="Imagen Principal" className="responsive-image" />
             </div>
             <div className="benefits-container">
-                <div className="containerButton">
-                <GooglePlayButton />
-              </div>
+                
             <Benefits />
 
             </div> 
+            <div className="containerButton">
+                <GooglePlayButton />
+              </div>
 
          
     </div>
