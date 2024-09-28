@@ -45,9 +45,9 @@
     display: flex;
     justify-content: space-between; /* Para colocar las cards a los lados de la imagen */
     align-items: center;
-    width: 100%; 
-    max-width: 1200px; /* Limitar el ancho total */
-    margin: 40px 0; /* Espaciado vertical */
+     max-width: 100%; /* Permite que ocupe todo el ancho */
+  margin: 0; /* Elimina márgenes */
+  padding: 0; /* Elimina relleno */
 }
 
 .containerButton {
@@ -144,20 +144,22 @@ h5 {
 .image-container {
     width: 40%;
     text-align: center;
+    margin-top: 20px;
     /* margin-bottom: 10px;
     margin-top: -10px; */
     display: flex;
     justify-content: center;
     align-items: center;
     flex-grow: 1;
+    text-align: center;
+    align-content: center;
 }
 
 .responsive-image {
-    max-width: 100%;
-    height: auto;
-    max-height: 500px; /* Controlar la altura máxima de la imagen */
+    max-width: 95%;
+    /* height: auto; */
     margin: 0 auto;
-    margin-left: 5px
+    margin-right: 4px;
 }
 
 .logo {

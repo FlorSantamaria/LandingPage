@@ -26,7 +26,7 @@ const CustomCard = styled(Card)(({ }) => ({
   padding: '10px',
   marginBottom: '10px',
   backgroundColor: 'white',
-  width: '300px',
+  width: '100%',
 }));
 
 
@@ -36,7 +36,7 @@ const isMobile = useMediaQuery({ query: '(max-width: 768px)' });
   return (
     <div style={{paddingLeft: '10px', paddingRight: '10px'}}>
 
-    <CustomCard elevation={0} style={{minHeight: isMobile? undefined : '150px',width: isMobile ? '92%' : '95%'}}>
+    <CustomCard elevation={0} style={{minHeight: isMobile? undefined : '150px',width: isMobile ? '92%' : '100%'}}>
       <CardContent sx={{ p:0, '&:last-child': { pb: 0 }}}>
       <div className="row">
       <img 
